@@ -37,8 +37,10 @@ export default function WordCard(props){
     
     if(state.attempt ==  3){
         console.log('Hind : general greeting ')
+    }else if (state.attempt == 5 ){
+        console.log('we think you are overthinking it is just a word Hello')
+        }
     }
-}
  return (
  <div>
  { 
